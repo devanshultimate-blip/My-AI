@@ -21,7 +21,7 @@
   },
   "build": {
     "appId": "com.doxdk.deepseek",
-    "productName": "DeepSeek",
+    "productName": "my ai",
     "copyright": "Copyright © 2025 doxdk",
     "directories": {
       "output": "dist"
