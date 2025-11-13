@@ -3,12 +3,14 @@ const path = require('path');
 
 let mainWindow;
 
+
 function createMainWindow() {
     mainWindow = new BrowserWindow({
         width: 1280,
         height: 800,
         minHeight: 600,
         minWidth: 800,
+        title:'my ai',
         icon: path.join(__dirname, 'deepseek-logo.png'),
         webPreferences: {
             nodeIntegration: false,
