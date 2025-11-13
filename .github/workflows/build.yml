@@ -20,12 +20,10 @@ jobs:
       
     - name: Build Windows app
       run: npx electron-builder --win
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
+      
     - name: Upload built app
       uses: actions/upload-artifact@v3
       with:
-        name: my-ai-App-Windows
+        name: My-AI-App-Windows
         path: dist/
         retention-days: 30
